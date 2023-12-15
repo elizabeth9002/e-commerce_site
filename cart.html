@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/54e88c0d8b.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Boutique</title>
+  </head>
+
+  <body>
+    <section id="header">
+      <a href="#"><img src="Images/logo.png" alt="logo" class="logo" /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>#let's_talk</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="Images/products/pro1.jpg" alt="hat" /></td>
+            <td>Beautiful Beach Hat</td>
+            <td>$55.99</td>
+            <td><input type="number" value="1" /></td>
+            <td>$55.99</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="Images/products/pro6.jpg" alt="hat" /></td>
+            <td>Beautiful Beach Hat</td>
+            <td>$55.99</td>
+            <td><input type="number" value="1" /></td>
+            <td>$55.99</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="Images/products/pro7.jpg" alt="hat" /></td>
+            <td>Beautiful Beach Hat</td>
+            <td>$55.99</td>
+            <td><input type="number" value="1" /></td>
+            <td>$55.99</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+
+      <div id="Subtotal" class="section-p1">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$234</td>
+          </tr>
+
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+
+          <tr>
+            <td><b>Total</b></td>
+            <td><b>$234</b></td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="Images/logo.png" alt="logo" />
+        <h4>Contact</h4>
+        <p>
+          <b>Address:</b> 13 Louga crescent, off Ademola Adetokunbo street, Wuse
+          II Abuja.
+        </p>
+        <p><b>Phone:</b> +234 802 609 6164 / +1 803 598 6586</p>
+        <p><b>Open:</b> <i>24/7</i>, Mon - Sat</p>
+      </div>
+
+      <div class="follow">
+        <h4>Follow Us On</h4>
+        <div class="icon">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-snapchat"></i>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Info</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us📱</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist🌟</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help😣</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From Google Play or App Store</p>
+        <div class="row">
+          <img src="Images/gp.png" alt="ps" />
+          <img src="Images/app-store-logo.webp" alt="as" />
+        </div>
+        <p>Secured Payment Getaways 🔒-💵</p>
+        <img src="Images/mas-car.jpg" alt="mc" />
+        <img src="Images/verve.png" alt="vrv" />
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
